@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>User Profile</title>
+</head>
+<body>
+    <section>
+        <div class="max-w-sm p-6 mx-auto bg-white rounded-xl shadow-xl  mt-10">
+            <div class="flex items-center space-x-4">
+                <img class="w-16 h-16 rounded-full" src="download.jpg" alt="User Avatar">
+                <div>
+                    <h2 class="text-lg font-semibold text-gray-700 dark:text-white">John Doe</h2>
+                    <p class="text-sm text-gray-500 dark:text-gray-400">Software Engineer</p>
+                </div>
+                
+            </div>
+            <div class="ml-auto mt-4 gap-2 flex">
+                    <button id="followBtn" class="px-7 py-1 text-sm font-medium text-white bg-blue-600 rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">Follow</button>
+                    <button class="px-7 py-1 text-sm font-medium text-white bg-blue-600 rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">Message</button>
+                </div>
+
+            <div class="mt-4">
+                <h3 class="text-lg font-medium text-gray-700 dark:text-white">About</h3>
+                <p class="mt-2 text-gray-600 dark:text-gray-300">
+                    Passionate developer with experience in building web applications using modern technologies.
+                </p>
+            </div>
+
+            <div class="mt-4">
+                <h3 class="text-lg font-medium text-gray-700 dark:text-white mt-4">Skills</h3>
+                <ul class="mt-2 list-disc list-inside text-gray-600 dark:text-gray-300">
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>Node.js</li>
+                    <li>CSS</li>
+                </ul>
+            </div>
+
+        </div>
+    
+
+    </section>
+<script src="app.js"></script>    
+</body>
+</html>
